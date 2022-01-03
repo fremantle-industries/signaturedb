@@ -1,0 +1,9 @@
+[package]
+name = "signaturedb"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+clap = { version = "3.0.0", features = ["derive"] }
+sha3 = "0.7.2"
+datafusion = "6.0.0"
